@@ -38,7 +38,7 @@ public class CacheLoadService extends AbstractVerticle {
 		customerModel1.setCustId("CUST898920");
 		customerModel1.setAge(25.0);
 		customerModel1.setCustomerClass("PLATINUM");
-		customerModel1.setIncome(200.00);
+		customerModel1.setIncome(300.00);
 
 		CustomerModel customerModel2 = new CustomerModel();
 		customerModel2.setCustId("CUST898976");
@@ -89,7 +89,7 @@ public class CacheLoadService extends AbstractVerticle {
 
 		PastHistoryModel pastHistoryModel1 = new PastHistoryModel();
 		pastHistoryModel1.setCustId("CUST898920");
-		pastHistoryModel1.setLastOfferResponse(0);
+		pastHistoryModel1.setLastOfferResponse(1);
 		pastHistoryModel1.setQualifiedPurchases("AIRLINES");
 
 		PastHistoryModel pastHistoryModel2 = new PastHistoryModel();
